@@ -102,3 +102,5 @@ When you are satisfied with your work, run the cell under the Sanity Tests secti
 
 [WARNING] The **songplays** table does not have a primary key!
 You may want to make appropriate changes to your code to make these warning messages go away. The tests below are only meant to help you make your work foolproof. The submission will still be graded by a human grader against the project rubric.
+
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/devendra416)
