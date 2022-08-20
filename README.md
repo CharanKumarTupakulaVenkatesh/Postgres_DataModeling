@@ -73,10 +73,10 @@ Build ETL Processes
 Follow instructions in the etl.ipynb notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run **test.ipynb** to confirm that records were successfully inserted into each table. Remember to rerun **create_tables.py** to reset your tables before each time you run this notebook.
 
 ## Build ETL Pipeline
-Use what you've completed in etl.ipynb to complete etl.py, where you'll process the entire datasets. Remember to run **create_tables.py** before running etl.py to reset your tables. Run **test.ipynb**to confirm your records were successfully inserted into each table.
+Use what you've completed in etl.ipynb to complete etl.py, where you'll process the entire datasets. Remember to run **create_tables.py** before running etl.py to reset your tables. Run **test.ipynb** to confirm your records were successfully inserted into each table.
 
 ## Run Sanity Tests
-When you are satisfied with your work, run the cell under the Sanity Tests section in the **test.ipynb**notebook. The cells contain some basic tests that will evaluate your work and catch any silly mistakes. We test column data types, primary key constraints and not-null constraints as well look for on-conflict clauses wherever required. If any of the test cases catches a problem, you will see a warning message printed in Orange that looks like this:
+When you are satisfied with your work, run the cell under the Sanity Tests section in the **test.ipynb** notebook. The cells contain some basic tests that will evaluate your work and catch any silly mistakes. We test column data types, primary key constraints and not-null constraints as well look for on-conflict clauses wherever required. If any of the test cases catches a problem, you will see a warning message printed in Orange that looks like this:
 
 [WARNING] The **songplays** table does not have a primary key!
 You may want to make appropriate changes to your code to make these warning messages go away. The tests below are only meant to help you make your work foolproof. The submission will still be graded by a human grader against the project rubric.
