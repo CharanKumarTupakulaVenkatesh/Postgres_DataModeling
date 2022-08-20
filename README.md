@@ -11,7 +11,7 @@ In this project, you'll apply what you've learned on data modeling with Postgres
 ## ⚡Built With
 
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
-![PostGres](https://img.shields.io/badge/-PostGres-black?style=flat-square&logo=PostGres)
+![Postgresql]([https://img.shields.io/badge/-PostGres-black?style=flat-square&logo=PostGres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white))
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)
