@@ -21,8 +21,8 @@ In this project, you'll apply what you've learned on data modeling with Postgres
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ## Database Schema
- ![ERD](Database_Schema.jpg?raw=true)
-
+ ![](Database_Schema.JPG?raw=true)
+ 
 ## Song Dataset
 The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are file paths to two files in this dataset.
    > **song_data/A/B/C/TRABCEI128F424C983.json**
