@@ -20,9 +20,7 @@ In this project, you'll apply what you've learned on data modeling with Postgres
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-## Database Schema
- ![](Database_Schema.JPG?raw=true)
- 
+
 ## Song Dataset
 The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are file paths to two files in this dataset.
    > **song_data/A/B/C/TRABCEI128F424C983.json**
@@ -54,6 +52,8 @@ If you would like to look at the JSON data within log_data files, you will need 
 
 # Project Instructions
 ## Schema for Song Play Analysis
+ ![](Database_Schema.JPG?raw=true)
+
 Using the song and log datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
 
 ## Fact Table
