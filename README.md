@@ -58,7 +58,8 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 
 ## Fact Table
 ****songplays**** - records in log data associated with song plays i.e. records with page NextSong
-songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+>
+> -songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 ## Dimension Tables
 **users** - users in the app
 >
@@ -82,22 +83,34 @@ To get started with the project, go to the workspace on the next page, where you
 In addition to the data files, the project workspace includes six files:
 
 **test.ipynb**displays the first few rows of each table to let you check your database.
-****create_tables.py**** drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
-**etl.ipynb** reads and processes a single file from **song_data** and **log_data** and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
-etl.py reads and processes files from song_data and log_data and loads them into your tables. You can fill this out based on your work in the ETL notebook.
-****sql_queries.py**** contains all your sql queries, and is imported into the last three files above.
-**README.md** provides discussion on your project.
+>
+>**create_tables.py** drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
+>
+>**etl.ipynb** reads and processes a single file from **song_data** and **log_data** and loads the data into your tables. 
+>
+>This notebook contains detailed instructions on the ETL process for each of the tables.
+>
+>**etl.py** reads and processes files from song_data and log_data and loads them into your tables. You can fill this out based on your work in the ETL notebook.
+>
+>****sql_queries.py**** contains all your sql queries, and is imported into the last three files above.
+>
+>**README.md** provides discussion on your project.
+>
 Project Steps
-NOTE: You will not be able to run test.ipynb, etl.ipynb, or etl.py until you have run **create_tables.py** at least once to create the sparkifydb database, which these other files connect to.
+NOTE: You will not be able to run **test.ipynb, etl.ipynb, or etl.py** until you have run **create_tables.py** at least once to create the **sparkifydb** database, which these other files connect to.
 
 ## Below are steps you can follow to complete the project:
 
 ## Create Tables
-Write CREATE statements in **sql_queries.py** to create each table.
-Write DROP statements in **sql_queries.py** to drop each table if it exists.
-Run **create_tables.py** to create your database and tables.
-Run **test.ipynb** to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.
-Build ETL Processes
+>Write CREATE statements in **sql_queries.py** to create each table.
+>
+>Write DROP statements in **sql_queries.py** to drop each table if it exists.
+>
+>Run **create_tables.py** to create your database and tables.
+>
+>Run **test.ipynb** to confirm the creation of your tables with the correct columns. Make sure to click **"Restart kernel"** to close the connection to the database after running this notebook.
+>
+## Build ETL Processes
 Follow instructions in the etl.ipynb notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run **test.ipynb** to confirm that records were successfully inserted into each table. Remember to rerun **create_tables.py** to reset your tables before each time you run this notebook.
 
 ## Build ETL Pipeline
