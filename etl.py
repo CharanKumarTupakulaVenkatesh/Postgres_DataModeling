@@ -25,9 +25,9 @@ def process_song_file(cur, filepath):
 
 def process_log_file(cur, filepath):
         """ Extract  the log file from Source and loaded into time,users and Songplays Tables
-         Args:
-             Param1:cur->psycopg2 package 
-             Param2:filepath->Location of the log file
+             Args:
+                 Param1:cur->psycopg2 package 
+                 Param2:filepath->Location of the log file
         """
     # open log file
     df = pd.read_json(filepath,lines=True)
@@ -72,11 +72,11 @@ def process_log_file(cur, filepath):
 
 def process_data(cur, conn, filepath, func):
         """ Extract  all the files  from Source locations and process them
-         Args:
-             Param1:cur->psycopg2 package 
-             Param2:conn-> Database Connection
-             Param3:filepath->Location of the songs file
-             Param4:Call the Function Executions
+             Args:
+                 Param1:cur->psycopg2 package 
+                 Param2:conn-> Database Connection
+                 Param3:filepath->Location of the songs file
+                 Param4:Call the Function Executions
         """
     # get all files matching extension from directory
     all_files = []
