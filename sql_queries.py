@@ -24,7 +24,7 @@ user_agent varchar);
 
 user_table_create = ("""
 create table if not exists users(
-user_id int NOT NULL PRIMARY KEY , 
+user_id int PRIMARY KEY , 
 first_name varchar not null, 
 last_name varchar,
 gender varchar, 
@@ -33,7 +33,7 @@ level varchar);
 
 song_table_create = ("""
 create table if not exists songs(
-song_id varchar NOT NULL PRIMARY KEY, 
+song_id varchar PRIMARY KEY, 
 title varchar not null, 
 artist_id varchar not null, 
 year int, 
@@ -42,7 +42,7 @@ duration float not null);
 
 artist_table_create = ("""
 create table if not exists artists(
-artist_id varchar NOT NULL PRIMARY KEY,
+artist_id varchar PRIMARY KEY,
 name varchar not null, 
 location varchar, 
 latitude float, 
@@ -51,7 +51,7 @@ longitude float);
 
 time_table_create = ("""
 create table if not exists time(
-start_time timestamp not null PRIMARY KEY,
+start_time timestamp PRIMARY KEY,
 hour int, 
 day int, 
 week int, 
